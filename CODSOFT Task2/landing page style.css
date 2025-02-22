@@ -1,0 +1,405 @@
+
+header nav li{
+    display:inline-block;
+    padding:20px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 20px;
+}
+header img{
+    padding:8px;
+    border-radius: 40px;
+}
+header .ice{
+    background-image: url('images/icecream.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
+}
+header li a{
+    color:black;
+}
+header .cream h1{
+    font-size: 50px;
+    margin-top: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-left:380px ;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+header .cream h2{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-left:500px ;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+header .cream button{
+    margin-left: 570px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    padding:10px;
+    border: 2px solid white;
+}
+main section .about img{
+    float:right;
+    border: 2px solid red;
+    padding: 5px;
+}
+main section .about p{
+    font-size: 20px;
+    font-family: cursive;
+    text-indent: 80px;
+    margin-left: 10px;
+    padding:5px
+
+}
+main section .about h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+main section .video h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+ .choco img {
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .choco button{
+    float:right;
+ }
+ .strawberry img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .strawberry button{
+    float:right;
+ }
+ .grape img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .grape button{
+    float:right;
+ }
+ .vanilla img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .vanilla button{
+    float:right;
+ }
+ .choco_cup img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .choco_cup button{
+    float:right;
+ }
+ .rainbow_ice img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .rainbow_ice button{
+    float:right;
+ }
+ .chocobar img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .chocobar button{
+    float:right;
+ }
+ .butterscotch img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .butterscotch button{
+    float:right;
+ }
+ .chocochip img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .chocochip button{
+    float:right;
+ }
+ .mango img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .mango button{
+    float:right;
+ }
+ .homemade img{
+    float:left;
+    padding:10px;
+    border:2px solid red;
+ }
+ .homemade button{
+    float:right;
+ }
+.choco h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.choco p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.choco button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.strawberry h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.strawberry p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.strawberry button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.grape h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.grape p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.grape button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.vanilla h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.vanilla p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.vanilla button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.choco_cup h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.choco_cup p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.choco_cup button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.rainbow_ice h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.rainbow_ice p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.rainbow_ice button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.chocobar h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.chocobar p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.chocobar button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.butterscotch h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.butterscotch p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.butterscotch button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.chocochip h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.chocochip p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.chocochip button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.mango h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.mango p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.mango button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+.homemade h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.homemade p{
+    font-size: 15px;
+    font-family: cursive;
+}
+.homemade button{
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background-color:red;
+    color:white;
+    font-size: 25px;
+}
+section .contact h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+
+}
+.contact form input{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    margin-left: 460px;
+    
+}
+.contact form button{
+    margin-left: 585px;
+    color:white;
+    background-color: red;;
+    border:2px solid black;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.824);
+    color:white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
