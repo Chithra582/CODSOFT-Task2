@@ -1,0 +1,25 @@
+name: get-flavour-catalog
+description: "Returns the active dessert catalog including flavor names, descriptions, prices, and imagery"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    category:
+      type: string
+      description: "Optional filter by category (e.g. classic, fruity, chocolate)"
+output_schema:
+  type: object
+  properties:
+    flavours:
+      type: array
+      items:
+        type: object
+        properties:
+          name:
+            type: string
+          description:
+            type: string
+          price:
+            type: number
+          image:
+            type: string

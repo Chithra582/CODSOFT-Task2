@@ -1,0 +1,24 @@
+name: submit-customer-inquiry
+description: "Submits a customer question, catering request, or order feedback with privacy sanitization"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    name:
+      type: string
+    email:
+      type: string
+    message:
+      type: string
+  required:
+    - name
+    - message
+output_schema:
+  type: object
+  properties:
+    status:
+      type: string
+    receipt_id:
+      type: string
+    message:
+      type: string

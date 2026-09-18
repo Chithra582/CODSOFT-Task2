@@ -1,0 +1,29 @@
+name: calculate-order-offer
+description: "Calculates order subtotals, applies volume discounts, and outputs final bill estimate"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    items:
+      type: array
+      items:
+        type: object
+        properties:
+          flavour:
+            type: string
+          quantity:
+            type: integer
+      description: "List of items and quantities"
+  required:
+    - items
+output_schema:
+  type: object
+  properties:
+    subtotal:
+      type: number
+    discount_amount:
+      type: number
+    final_total:
+      type: number
+    applied_offer:
+      type: string

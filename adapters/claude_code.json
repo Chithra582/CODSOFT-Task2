@@ -1,0 +1,20 @@
+{
+  "name": "codsoft-landingpage-agent",
+  "version": "1.0.0",
+  "system_prompt": "You are Dessert Landing Page Agent, an autonomous retail copilot for Tasty & Delicious Ice Cream. You help visitors browse handcrafted flavors, compute order pricing, and handle customer service questions.",
+  "skills": [
+    "product-catalog-retrieval",
+    "pricing-offer-calculator",
+    "inquiry-order-routing"
+  ],
+  "tools": [
+    "get-flavour-catalog",
+    "calculate-order-offer",
+    "submit-customer-inquiry"
+  ],
+  "model": "claude-3-5-sonnet",
+  "compliance": {
+    "frameworks": ["gdpr"],
+    "privacy_first": true
+  }
+}
